@@ -1,0 +1,31 @@
+	function makeUnderscores(input) {
+		// replace input with underscores
+		var output = ""
+		for (var i = 0; i < input.length; i++) {
+			if (input[i] === " ") {
+				output += " ";
+			} else {
+				output += "_";
+			}
+		}
+		return output;
+	}
+
+	function makeAnswer(phrase) {
+		var answer = {
+			correct: phrase,
+			current: makeUnderscores(phrase),
+			usedLetters: [],
+			guessesRemaining: 10,
+			gameResult: null,
+
+			guess: function(letter) {
+				// if letter is in correct 
+				// change current to show letter. 
+				// add letter to used letters
+				// if current matches correct change result to won. 
+				// else (letter is incorrect)
+				// if guessed wrong guesses go down by one.  
+				// if guesses remainig is zero, change result to lost. 
+			}, 
+		};

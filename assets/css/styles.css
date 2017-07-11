@@ -1,0 +1,36 @@
+body {
+	background-image: url('adtime.jpg');
+	font-family: 'Press Start 2P', cursive;
+	height: auto;
+	width: auto;
+}
+
+h1{
+	font-family: 'Gochi Hand', cursive;
+	text-align: left;
+	font-size: 100px;
+	padding-top: 130px;
+	transform: rotate(-15deg);
+}
+
+h2 {
+	z-index: 1;
+	font-size: x-large;
+	position: relative;
+}
+
+#hanggame {
+	height: 100%;
+	z-index: 1;
+	font-size: medium;
+	position: relative;
+	bottom: 900px; 
+	left: 75px; 
+	
+}
+
+.col-sm-7 img {
+	align-content: center;
+	max-height: 300px;
+}
+
