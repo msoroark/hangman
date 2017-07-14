@@ -5,32 +5,44 @@ body {
 	width: auto;
 }
 
+.bmo {
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	bottom: 760px;
+	left: 58px;
+	max-width: 80%;
+}
 h1{
-	font-family: 'Gochi Hand', cursive;
-	text-align: left;
-	font-size: 100px;
-	padding-top: 130px;
-	transform: rotate(-15deg);
+	font-size: large;
+	padding-bottom: 20px;
 }
 
-h2 {
-	z-index: 1;
-	font-size: x-large;
-	position: relative;
+p {
+
+	font-size: larger;
 }
 
-#hanggame {
-	height: 100%;
-	z-index: 1;
-	font-size: medium;
+
+}
+
+.col-sm-12 img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.col-sm-6 img {	
+	margin-top: 50px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.btn  {
 	position: relative;
-	bottom: 900px; 
-	left: 75px; 
+	bottom: 671px;
+	left: 110px;
+	background-color: #193c2d;
+	border: 0px;
+	color: white;
 	
 }
-
-.col-sm-7 img {
-	align-content: center;
-	max-height: 300px;
-}
-
