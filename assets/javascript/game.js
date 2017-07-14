@@ -39,7 +39,6 @@ var guesses = 15;
 
 function newGame() {
 	//get new word]
-	// correctAnswer = words[Math.floor(Math.random() * words.length)];
 	wordCombo = getWord();
 	console.log(wordCombo);
 	correctAnswer = wordCombo.word;
@@ -71,7 +70,8 @@ function finishGame() {
 	//phrase displayed
 	} else {
 	document.querySelector('#finish_game_text').innerHTML = 'UNACCEPTABLE! Get it together, dude.';
-	document.querySelector('#video').innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/07So_lJQyqw" frameborder="0" allowfullscreen></iframe>'
+	document.querySelector('#video').innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/07So_lJQyqw?&autoplay=1" frameborder="0" allowfullscreen></iframe>';
+	winningPhrase = "";
 	}
 }	
 // I want to display current word-now I want it to be underscored. 

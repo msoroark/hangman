@@ -24,14 +24,13 @@ p {
 }
 
 
-}
-
 .col-sm-12 img {
 	max-width: 100%;
 	max-height: 100%;
 }
 
 .col-sm-6 img {	
+	z-index: 0;
 	margin-top: 50px;
 	max-height: 100%;
 	max-width: 100%;
@@ -44,5 +43,37 @@ p {
 	background-color: #193c2d;
 	border: 0px;
 	color: white;
+	
+}
+
+#title {
+	padding:0;
+	margin: 0;
+	text-align: right;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 70px;
+	color: white;
+	transform: rotate(-20deg);
+}
+
+#phrase {
+	font-family: 'Gochi Hand', cursive;
+	color: white;
+	font-size: 25px;
+	background-color: black;
+	width: 560px;
+	padding: 0px 10px
+}
+
+#finish_game_text {
+	 font-family: 'Gochi Hand', cursive;
+	 color: white;
+	 font-size: 50px;
+	 background-color: black;
+	 width: 560px;
+	 padding: 0px 10px;
+}
+
+#g_sofar {
 	
 }

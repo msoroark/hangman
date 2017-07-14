@@ -20,8 +20,10 @@
 		<div class="col-sm-6">
 			<div class="row">
 				<div class="col-sm-12">
-				<img src="assets/images/adventuretime.png" alt="Adventure Time"> 
+					<img id="logo" src="assets/images/adventuretime.png" alt="Adventure Time">
+					<h1 id="title"> HANGMAN </h1> 
 				</div>
+			
 			</div>
 			<div class="row"> 
 				<div class="col-sm-12">
@@ -35,13 +37,13 @@
 	</div>
 		
 		<div class="col-sm-6" id="hanggame">
-			<img src="assets/images/bmo.png" alt="Bee Mo">
+			<img src="assets/images/bmo.png" alt="Bee Mo" class="img-rounded">
 				<h1 class="bmo"> Press any key to get started! </h1>
 				<p class="bmo"> WINS: <span id="win_count">0</span></p>
 				<p class="bmo"> Current Word </p>
 				<p class="bmo"> <span id="current_word"></span></p>
 				<p class="bmo"> Number of guesses left: <span id="g_left">15</span></p>
-				<p class="bmo">Letters guessed so far: <span id="g_sofar"><br></span></p>
+				<p class="bmo" id="guessed">Letters guessed so far: <span id="g_sofar"><br></span></p>
 				<button id ="button" type="button" class="btn btn-default">
 				NEW WORD
 				</button>
