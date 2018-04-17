@@ -17,13 +17,14 @@ var wordCombos = [{
 }, {
 	word: 'lumpy space',
 	phrase: 'Home of Lumpy space princess. Oh my glob!',
-	videoID: 'AAmJslV48g',
+	videoID: 'O3Fd9H8odXE',
 }, {
 	word: 'lady rainicorn',
 	phrase: 'Lady rainicorn is the Korean speaking girlfriend of Jake. Also, like, half rainbow half unicorn.',
 	videoID: 'LErwHmjBuYQ#t=0m35s',
 }, ];
 
+//Getting word for hangman. 
 function getWord(){
 	return wordCombos.shift();
 }
@@ -36,7 +37,7 @@ var guesses = 15;
 
 
 
-
+//Every game
 function newGame() {
 	//get new word]
 	wordCombo = getWord();
