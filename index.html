@@ -38,16 +38,19 @@
 	</div>
 		
 		<div class="col-sm-6" id="hanggame">
-			<img src="assets/images/bmo.png" alt="Bee Mo" class="img-rounded">
-				<h1 class="bmo"> Press any key to get started! </h1>
-				<p class="bmo"> WINS: <span id="win_count">0</span></p>
-				<p class="bmo"> Current Word </p>
-				<p class="bmo"> <span id="current_word"></span></p>
-				<p class="bmo"> Number of guesses left: <span id="g_left">15</span></p>
-				<p class="bmo" id="guessed">Letters guessed so far: <span id="g_sofar"><br></span></p>
-				<button id ="button" type="button" class="btn btn-default">
-				NEW WORD
-				</button>
+			<img src="assets/images/bmo.png" alt="Bee Mo" class="img-rounded" id="gameFace">
+				<div class="displayWords">
+					<h1 class="bmo"> Press any key to get started! </h1>
+					<p class="bmo"> WINS: <span id="win_count">0</span></p>
+					<p class="bmo"> Current Word </p>
+					<p class="bmo"> <span id="current_word"></span></p>
+					<p class="bmo"> Number of guesses left: <span id="g_left">15</span></p>
+					<p class="bmo" id="guessed">Letters guessed so far: <span id="g_sofar"><br></span></p>
+				</div>
+				<div class="newWord">
+					<button id ="button" type="button" class="btn btn-default">
+					</button>
+				</div>
 			</img>
 		</div>
 	</div>

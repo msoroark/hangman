@@ -2,3 +2,12 @@ body {
 	background-image: url('adtime.jpg');
 	background-color: black;
 }
+
+div.scroll {
+height: 200px;
+width: 300px;
+overflow: auto;
+border: 1px solid #666;
+background-color: #ccc;
+padding: 8px;
+}

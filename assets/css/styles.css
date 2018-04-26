@@ -5,14 +5,7 @@ body {
 	width: auto;
 }
 
-.bmo {
-	text-align: center;
-	z-index: 1;
-	position: relative;
-	bottom: 760px;
-	left: 58px;
-	max-width: 80%;
-}
+
 h1{
 	font-size: large;
 	padding-bottom: 20px;
@@ -23,6 +16,15 @@ p {
 	font-size: larger;
 }
 
+
+.bmo {
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	bottom: 760px;
+	left: 58px;
+	max-width: 80%;
+}
 
 .col-sm-12 img {
 	max-width: 100%;
@@ -37,13 +39,12 @@ p {
 }
 
 .btn  {
-	position: relative;
+	position: fixed;
 	bottom: 671px;
 	left: 110px;
 	background-color: #193c2d;
 	border: 0px;
-	color: white;
-	
+	color: white;	
 }
 
 #title {
@@ -74,4 +75,8 @@ p {
 	 padding: 0px 10px;
 }
 
+#g_sofar {
+	max-height: 200px;
+	overflow: scroll;
+}
 

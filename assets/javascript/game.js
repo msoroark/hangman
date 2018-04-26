@@ -21,7 +21,7 @@ var wordCombos = [{
 }, {
 	word: 'lady rainicorn',
 	phrase: 'Lady rainicorn is the Korean speaking girlfriend of Jake. Also, like, half rainbow half unicorn.',
-	videoID: 'LErwHmjBuYQ#t=0m35s',
+	videoID: 'LErwHmjBuYQ',
 }, ];
 
 //Getting word for hangman. 
@@ -68,11 +68,13 @@ function finishGame() {
 	var videoHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' +
 		wordCombo.videoID +  '?&autoplay=1"frameborder="0" allowfullscreen></iframe>'
 	document.querySelector('#video').innerHTML = videoHTML;
+	newGame();
 	//phrase displayed
 	} else {
 	document.querySelector('#finish_game_text').innerHTML = 'UNACCEPTABLE! Get it together, dude.';
 	document.querySelector('#video').innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/07So_lJQyqw?&autoplay=1" frameborder="0" allowfullscreen></iframe>';
 	winningPhrase = "";
+	newGame();
 	}
 }	
 // I want to display current word-now I want it to be underscored. 
