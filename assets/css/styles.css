@@ -42,7 +42,7 @@ p {
 	position: fixed;
 	bottom: 671px;
 	left: 110px;
-	background-color: #193c2d;
+	background-color: transparent;
 	border: 0px;
 	color: white;	
 }
@@ -73,10 +73,5 @@ p {
 	 background-color: black;
 	 width: 560px;
 	 padding: 0px 10px;
-}
-
-#g_sofar {
-	max-height: 200px;
-	overflow: scroll;
 }
 
